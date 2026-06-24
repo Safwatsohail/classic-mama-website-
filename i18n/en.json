@@ -1,0 +1,266 @@
+{
+  "brand_name": "MMA Home Fitness Academy",
+  "nav_home": "Home",
+  "nav_about": "About",
+  "nav_programs": "Programs",
+  "nav_specialized": "Specialized Training",
+  "nav_schedule": "Schedule",
+  "nav_coaching": "Coaching",
+  "nav_wellbeing": "Well-Being",
+  "nav_philosophy": "Philosophy",
+  "nav_testimonials": "Testimonials",
+  "nav_contact": "Contact",
+
+  "home_title": "Train Elite. Train at Home.",
+  "home_subtitle": "Professional MMA and fitness coaching delivered to your doorstep across the UAE",
+  "home_cta": "Book a Free Trial",
+  "about_title": "About MMA HomeFitness Academy",
+  "about_description_1": "MMA HomeFitness Academy brings world-class martial arts and fitness training directly to your home. Our certified instructors specialize in various combat sports and fitness disciplines, ensuring personalized training that fits your schedule and goals.",
+  "about_description_2": "Whether you're a beginner looking to learn self-defense or an experienced athlete aiming to enhance your skills, our comprehensive programs cater to all fitness levels and ages.",
+  "stat_clients": "Happy Clients",
+  "stat_emirates": "Serving All UAE Emirates",
+  "stat_experience": "Years Experience",
+
+  "programs_title": "Our Programs",
+  "programs_subtitle": "Comprehensive training programs designed for all skill levels",
+
+  "program_taekwondo_title": "Taekwondo",
+  "program_taekwondo_desc": "Traditional Korean martial art focusing on high kicks and fast techniques",
+
+  "program_karate_title": "Karate",
+  "program_karate_desc": "Japanese martial art emphasizing striking techniques and self-discipline",
+
+  "program_kickboxing_title": "Kickboxing",
+  "program_kickboxing_desc": "High-intensity combat sport combining boxing and kicking techniques",
+
+  "program_muaythai_title": "Muay Thai",
+  "program_muaythai_desc": "The art of eight limbs - utilizing fists, elbows, knees, and shins",
+
+  "program_mma_title": "MMA",
+  "program_mma_desc": "Mixed martial arts combining multiple combat disciplines",
+
+  "program_zumba_title": "Zumba",
+  "program_zumba_desc": "Fun fitness program combining dance and aerobic movements",
+
+  "program_weightloss_title": "Weight Loss",
+  "program_weightloss_desc": "Targeted programs for effective and sustainable weight management",
+
+  "program_physicaltherapy_title": "Physical Therapy",
+  "program_physicaltherapy_desc": "Rehabilitation and recovery-focused training programs",
+
+  "program_overallfitness_title": "Overall Fitness",
+  "program_overallfitness_desc": "Comprehensive fitness training for general health and wellness",
+
+  "program_boxing_title": "Boxing",
+  "program_boxing_desc": "Traditional boxing techniques for fitness and self-defense",
+
+  "program_cardio_title": "Cardio Boxing",
+  "program_cardio_desc": "High-energy cardio workout using boxing movements",
+
+  "program_yoga_title": "Yoga",
+  "program_yoga_desc": "Mind-body practice focusing on flexibility, strength, and mindfulness",
+
+  "program_jiujitsu_title": "Jiu-Jitsu",
+  "program_jiujitsu_desc": "Brazilian ground fighting art emphasizing leverage, technique, and submissions",
+
+  "specialized_training_title": "Specialized Training",
+  "specialized_training_subtitle": "Elite and focused training for every individual need",
+
+  "specialized_private_coaching_title": "Private Coaching",
+  "specialized_private_coaching_p1": "The Best Coaches in the UAE. With the right coach, the impossible becomes possible. Maximize your potential with our elite coaches.",
+  "specialized_private_coaching_p2": "Get paired with your perfect fit. From Muay Thai to functional fitness, we have a coach for you.",
+  "specialized_private_coaching_alt": "Private Coaching",
+
+  "specialized_youth_kickboxing_title": "Youth Kickboxing",
+  "specialized_youth_kickboxing_p1": "Get your child moving with high-energy youth kickboxing classes — the perfect mix of fitness, focus, and fun.",
+  "specialized_youth_kickboxing_p2": "Structured and safe environment that builds strength, agility, and self-confidence through drills and movement.",
+  "specialized_youth_kickboxing_alt": "Youth Kickboxing",
+
+  "specialized_group_classes_title": "Group Classes",
+  "specialized_group_classes_p1": "Train with a motivated community and push each other to new heights. Group workouts are designed to be fun, challenging, and full of energy.",
+  "specialized_group_classes_p2": "From high-intensity cardio to martial arts fundamentals, our group classes suit all levels.",
+  "specialized_group_classes_alt": "Group Classes",
+
+  "specialized_women_only_title": "Women-Only Training",
+  "specialized_women_only_p1": "A safe, empowering space for women to train confidently and comfortably. Designed by expert female instructors.",
+  "specialized_women_only_p2": "Build strength, confidence, and resilience through tailored programs that suit your goals and fitness level.",
+  "specialized_women_only_alt": "Women-Only Training",
+
+  "specialized_strength_conditioning_title": "Strength & Conditioning",
+  "specialized_strength_conditioning_p1": "Power through your limits with science-backed training methods. Enhance speed, endurance, agility, and muscle growth.",
+  "specialized_strength_conditioning_p2": "Ideal for athletes and everyday warriors. Experience functional fitness that delivers real-world performance.",
+  "specialized_strength_conditioning_alt": "Strength and Conditioning",
+
+  "specialized_kids_martial_arts_title": "Kids Martial Arts",
+  "specialized_kids_martial_arts_p1": "Build discipline, confidence, and respect through fun, structured martial arts classes tailored for children.",
+  "specialized_kids_martial_arts_p2": "Our certified coaches create a safe and engaging environment for kids to learn self-defense and stay active.",
+  "specialized_kids_martial_arts_alt": "Kids Martial Arts",
+
+  "specialized_flexibility_recovery_title": "Flexibility & Recovery",
+  "specialized_flexibility_recovery_p1": "Optimize your performance with recovery routines, guided stretching, and mobility training.",
+  "specialized_flexibility_recovery_p2": "Perfect for athletes and anyone looking to improve posture, reduce injury, and feel their best.",
+  "specialized_flexibility_recovery_alt": "Flexibility and Recovery",
+
+  "specialized_self_defense_title": "Self-Defense Training",
+  "specialized_self_defense_p1": "Learn practical, effective techniques to protect yourself in real-life scenarios.",
+  "specialized_self_defense_p2": "Our programs cover situational awareness, striking, escapes, and more—taught by experienced professionals.",
+  "specialized_self_defense_alt": "Self-Defense Training",
+
+  "specialized_muay_thai_title": "Muay Thai Training",
+  "specialized_muay_thai_p1": "Master the art of eight limbs with authentic Muay Thai training. Improve your striking, power, and endurance.",
+  "specialized_muay_thai_p2": "From beginners to advanced fighters, our sessions are tailored to help you grow technically and physically.",
+  "specialized_muay_thai_alt": "Muay Thai Training",
+
+  "specialized_taekwondo_title": "Taekwondo Training",
+  "specialized_taekwondo_p1": "Master the art of powerful kicks, discipline, and speed with our traditional Taekwondo programs.",
+  "specialized_taekwondo_p2": "Whether you're a beginner or advancing through the belts, our classes focus on precision, confidence, and personal growth.",
+  "specialized_taekwondo_alt": "Taekwondo Training",
+
+  "specialized_karate_title": "Karate Training",
+  "specialized_karate_p1": "Develop discipline, focus, and physical strength through the traditional art of Karate. Perfect for all ages and skill levels.",
+  "specialized_karate_p2": "Our classes cover kata, kumite, and self-defense, guided by certified black belt instructors in a safe and respectful environment.",
+  "specialized_karate_alt": "Karate Training",
+
+   "schedule_title": "Weekly Schedule",
+  "schedule_subtitle": "Flexible training times to fit your lifestyle",
+
+  "schedule_time": "Time",
+  "schedule_monday": "Monday",
+  "schedule_tuesday": "Tuesday",
+  "schedule_wednesday": "Wednesday",
+  "schedule_thursday": "Thursday",
+  "schedule_friday": "Friday",
+  "schedule_saturday": "Saturday",
+  "schedule_sunday": "Sunday",
+
+  "schedule_6am": "6:00 AM",
+  "schedule_8am": "8:00 AM",
+  "schedule_10am": "10:00 AM",
+  "schedule_4pm": "4:00 PM",
+  "schedule_6pm": "6:00 PM",
+  "schedule_8pm": "8:00 PM",
+
+  "schedule_yoga": "Yoga",
+  "schedule_boxing": "Boxing",
+  "schedule_cardio_boxing": "Cardio Boxing",
+  "schedule_muay_thai": "Muay Thai",
+  "schedule_mma": "MMA",
+  "schedule_rest_day": "Rest Day",
+  "schedule_karate": "Karate",
+  "schedule_weight_loss": "Weight Loss",
+  "schedule_taekwondo": "Taekwondo",
+  "schedule_overall_fitness": "Overall Fitness",
+  "schedule_kickboxing": "Kickboxing",
+  "schedule_zumba": "Zumba",
+  "schedule_physical_therapy": "Physical Therapy",
+
+  "coaching_title": "Our Expert Coaches",
+  "coaching_subtitle": "Meet our certified professionals dedicated to your success",
+
+  "coach_sakina_name": "Coach Sakina",
+  "coach_sakina_bio": "15+ years in MMA and Muay Thai. Former professional fighter with extensive coaching experience across UAE and Thailand.",
+  "coach_sakina_specialty": "MMA & Muay Thai Specialist",
+  "coach_sakina_alt": "Photo of Coach Sakina",
+
+  "coach_abdullah_name": "Coach Abdullah",
+  "coach_abdullah_bio": "Black belt in Karate and Taekwondo. Specialized in youth training and women's self-defense programs.",
+  "coach_abdullah_specialty": "Karate & Taekwondo Master",
+  "coach_abdullah_alt": "Photo of Coach Abdullah",
+
+  "coach_jeehan_name": "Coach Jeehan",
+  "coach_jeehan_bio": "Certified fitness trainer with expertise in weight loss, cardio boxing, and overall fitness development.",
+  "coach_jeehan_specialty": "Fitness & Boxing Coach",
+  "coach_jeehan_alt": "Photo of Coach Jeehan",
+
+  "coach_daniel_name": "Coach Daniel",
+  "coach_daniel_bio": "Licensed physical therapist and yoga instructor. Specializes in rehabilitation and therapeutic fitness programs.",
+  "coach_daniel_specialty": "Physical Therapy & Yoga",
+  "coach_daniel_alt": "Photo of Coach Daniel",
+
+  "coach_abdulaziz_name": "Abdulaziz Tayseer",
+  "coach_abdulaziz_bio": "Fitness and martial arts expert with 6 years of experience! Specializes in Taekwondo, Muay Thai, Boxing, and physical conditioning.",
+  "coach_abdulaziz_specialty": "Fitness & Martial Arts",
+  "coach_abdulaziz_alt": "Photo of Coach Abdulaziz Tayseer",
+
+  "coach_sanaa_name": "Sanaa Al-Bukhari",
+  "coach_sanaa_bio": "Fitness and martial arts coach with 6 years of experience! Specializes in aerobics, Taekwondo, kickboxing, Zumba, and rehabilitation exercises. Ready to ignite your energy!",
+  "coach_sanaa_specialty": "Aerobics, Kickboxing & Rehab Training",
+  "coach_sanaa_alt": "Photo of Coach Sanaa Al-Bukhari",
+
+  "coach_atika_name": "Atika Al-Fattoumi",
+  "coach_atika_bio": "Fitness and martial arts coach with 7 years of experience in Taekwondo, Boxing, and general fitness! Specializes in Zumba, aerobics, physical conditioning, body toning, and muscle building. Ready to transform your fitness journey!",
+  "coach_atika_specialty": "Taekwondo, Boxing & Body Sculpting",
+  "coach_atika_alt": "Photo of Coach Atika Al-Fattoumi",
+
+  "wellbeing_title": "Physical & Mental Well-Being",
+  "wellbeing_subtitle": "Transform your body and mind through our holistic approach",
+
+  "wellbeing_physical_health_title": "Physical Health",
+  "wellbeing_physical_1": "Improved cardiovascular fitness",
+  "wellbeing_physical_2": "Enhanced muscle strength and endurance",
+  "wellbeing_physical_3": "Better flexibility and mobility",
+  "wellbeing_physical_4": "Weight management and body composition",
+  "wellbeing_physical_5": "Stronger immune system",
+  "wellbeing_physical_6": "Reduced risk of chronic diseases",
+
+  "wellbeing_mental_health_title": "Mental Health",
+  "wellbeing_mental_1": "Stress reduction and management",
+  "wellbeing_mental_2": "Improved mood and emotional balance",
+  "wellbeing_mental_3": "Enhanced self-confidence and esteem",
+  "wellbeing_mental_4": "Better sleep quality",
+  "wellbeing_mental_5": "Increased focus and concentration",
+  "wellbeing_mental_6": "Mental resilience and toughness",
+
+  "wellbeing_social_benefits_title": "Social Benefits",
+  "wellbeing_social_1": "Building discipline and respect",
+  "wellbeing_social_2": "Developing teamwork skills",
+  "wellbeing_social_3": "Creating lasting friendships",
+  "wellbeing_social_4": "Improved communication abilities",
+  "wellbeing_social_5": "Leadership development",
+  "wellbeing_social_6": "Cultural awareness and appreciation",
+
+   "philosophy_quote": "Discipline. Integrity. Focus.",
+  "philosophy_text": "These core values guide every aspect of our training. We believe that true strength comes from within, and our mission is to help you discover your potential while building character that extends far beyond the training mat.",
+  
+  "testimonials_title": "What Our Clients Say",
+  "testimonials_subtitle": "Real stories from our training community",
+
+  "testimonial_1_text": "My seven-month experience at Home Fitness was truly unique. I trained in Muay Thai and various martial arts, and I developed myself significantly in terms of strength, fitness, and focus. The place is comfortable and stimulating, and everything is organized and encourages perseverance.",
+  "testimonial_1_name": "Rashid",
+  "testimonial_1_title": "Dubai Resident",
+
+  "testimonial_2_text": "I would like to thank Coach Samir, who never failed me. He supported me, taught me the basics, and helped me prepare for my first tournament. Thanks to him and my hard work, I entered the tournament and won second place. It was a wonderful and very encouraging experience. Home Fitness is not just a club; it's a stimulating environment. It's clean, organized, and everything is geared toward helping you focus and develop. The training there was intense and varied, and every day presented a new challenge. Best of all, the coach never fails. He's understanding, patient, and always encourages you to give your best.",
+  "testimonial_2_name": "Omar Hassan",
+  "testimonial_2_title": "Civil Officer",
+
+  "testimonial_3_text": "I've come to love exercise even more, and I've gained fitness and confidence beyond my wildest imagination, all thanks to commitment, passion, and my training facility at Home Fitness. I placed second, and I've had an experience that has changed my personality and outlook on life. The journey continues, the dream never stops, and fighting has become part of my being.",
+  "testimonial_3_name": "Priya Sharma",
+  "testimonial_3_title": "Abu Dhabi Resident",
+
+  "contact_title": "Get Started Today",
+  "contact_subtitle": "Contact us to begin your martial arts journey",
+  "contact_name_placeholder": "Your Name",
+  "contact_email_placeholder": "Your Email",
+  "contact_phone_placeholder": "Your Phone Number",
+  "contact_message_placeholder": "Tell us about your fitness goals",
+  "contact_select_label": "Select Service Type",
+  "contact_select_option_default": "Select an option",
+  "contact_select_option_home": "Home Service",
+  "contact_select_option_academy": "Academy Fitness",
+  "contact_button": "Send Message",
+  "contact_success": "✅ Message sent successfully!",
+  "contact_visit_title": "Visit Our Head Office",
+  "contact_visit_description": "We offer in-home martial arts and fitness coaching across all of the UAE. Our head office is located at Marhaba Mall, Ras Al Khor Industrial Area 2, Dubai.",
+  "contact_address": "Marhaba Mall, Ras Al Khor Industrial Area 2, Dubai, UAE",
+  "contact_phone": "+971 50 123 4567",
+  "contact_email": "info@mmahomefitness.ae",
+
+  "contact_bubble_text": "Contact Us",
+
+   "footer_title": "MMA HomeFitness Academy",
+  "footer_description": "Bringing professional martial arts and fitness training to your home across the UAE.",
+  "footer_copyright": "© 2024 MMA HomeFitness Academy. All rights reserved."
+
+  
+  
+}

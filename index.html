@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MMA HomeFitness Academy - Train Elite. Train at Home.</title>
+    <meta name="description" content="Premier MMA and fitness training at home across UAE. Expert coaches, personalized programs, and professional martial arts instruction.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo.png">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style-blue-white-final.css">
+</head>
+<body>
+    
+<!-- Loader HTML -->
+<div class="loader" id="loader">
+  <!-- Your logo image -->
+  <img src="logo.png" alt="Logo" class="loader-logo">
+
+  <!-- Animated loader line -->
+  <div class="loader-line"></div>
+</div>
+
+
+
+
+<!-- Language Selection Popup -->
+<div id="language-popup" style="display:none;">
+  <div class="popup-overlay"></div>
+  <div class="popup-content">
+    <h2>Select Language</h2>
+    <button class="lang-btn" data-lang="en">English</button>
+    <button class="lang-btn" data-lang="ar">العربية</button>
+  </div>
+</div>
+
+
+
+<!-- Sticky Navbar -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container" id="nav-container">
+    <div class="nav-brand">
+      <a href="#home"><img src="logo.png" alt="logo" id="navbar-logo" /></a>
+      <span class="brand-text" data-i18n="brand_name">MMA Home Fitness Academy</span>
+    </div>
+
+    <div class="nav-menu" id="nav-menu">
+      <a href="#home" class="nav-link" data-i18n="nav_home">Home</a>
+      <a href="#about" class="nav-link" data-i18n="nav_about">About</a>
+      <a href="#programs" class="nav-link" data-i18n="nav_programs">Programs</a>
+      <a href="#specialized-training" class="nav-link" data-i18n="nav_specialized">Specialized Training</a>
+      <a href="#schedule" class="nav-link" data-i18n="nav_schedule">Schedule</a>
+      <a href="#coaching" class="nav-link" data-i18n="nav_coaching">Coaching</a>
+      <a href="#well-being" class="nav-link" data-i18n="nav_wellbeing">Well-Being</a>
+      <a href="#philosophy" class="nav-link" data-i18n="nav_philosophy">Philosophy</a>
+      <a href="#testimonials" class="nav-link" data-i18n="nav_testimonials">Testimonials</a>
+      <a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a>
+      <select id="language-select" class="lang-dropdown">
+        <option value="en">English</option>
+        <option value="ar">العربية</option>
+      </select>
+    </div>
+
+    <div class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" role="button" tabindex="0">
+      <span class="bar bar1"></span>
+      <span class="bar bar2"></span>
+      <span class="bar bar3"></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="hero-section">
+  <div class="hero-background">
+    <video autoplay muted loop playsinline class="bg-video">
+      <source src="hero_video.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay"></div>
+  </div>
+
+  <div class="hero-content">
+    <h1 class="hero-title animate-fade-up" data-i18n="home_title">Train Elite. Train at Home.</h1>
+    <p class="hero-subtitle animate-fade-up-delay" data-i18n="home_subtitle">
+      Professional MMA and fitness coaching delivered to your doorstep across the UAE
+    </p>
+    <a href="#contact">
+      <button class="cta-button animate-fade-up-delay-2" id="book-trial-btn" data-i18n="home_cta">
+        Book a Free Trial
+      </button>
+    </a>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+
+
+<!-- About Section -->
+<section id="about" class="section about-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="about_title">About MMA HomeFitness Academy</h2>
+      <div class="section-divider"></div>
+    </div>
+    <div class="about-content">
+      <div class="about-text">
+        <p class="about-description" data-i18n="about_description_1">
+          MMA HomeFitness Academy brings world-class martial arts and fitness training directly to your home. Our certified instructors specialize in various combat sports and fitness disciplines, ensuring personalized training that fits your schedule and goals.
+        </p>
+        <p class="about-description" data-i18n="about_description_2">
+          Whether you're a beginner looking to learn self-defense or an experienced athlete aiming to enhance your skills, our comprehensive programs cater to all fitness levels and ages.
+        </p>
+      </div>
+      <div class="about-media">
+        <img src="muay thai competition.jpg" alt="Professional MMA Training" class="about-image" />
+      </div>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">200+</div>
+        <div class="stat-label" data-i18n="stat_clients">Happy Clients</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">7</div>
+        <div class="stat-label" data-i18n="stat_emirates">Serving All UAE Emirates</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">12</div>
+        <div class="stat-label" data-i18n="stat_experience">Years Experience</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Programs Section -->
+<section id="programs" class="section programs-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="programs_title">Our Programs</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle" data-i18n="programs_subtitle">Comprehensive training programs designed for all skill levels</p>
+    </div>
+    <div class="programs-grid">
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-fist-raised"></i></div>
+        <h3 class="program-title" data-i18n="program_taekwondo_title">Taekwondo</h3>
+        <p class="program-description" data-i18n="program_taekwondo_desc">Traditional Korean martial art focusing on high kicks and fast techniques</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-hand-rock"></i></div>
+        <h3 class="program-title" data-i18n="program_karate_title">Karate</h3>
+        <p class="program-description" data-i18n="program_karate_desc">Japanese martial art emphasizing striking techniques and self-discipline</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-running"></i></div>
+        <h3 class="program-title" data-i18n="program_kickboxing_title">Kickboxing</h3>
+        <p class="program-description" data-i18n="program_kickboxing_desc">High-intensity combat sport combining boxing and kicking techniques</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-fire"></i></div>
+        <h3 class="program-title" data-i18n="program_muaythai_title">Muay Thai</h3>
+        <p class="program-description" data-i18n="program_muaythai_desc">The art of eight limbs - utilizing fists, elbows, knees, and shins</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-shield-alt"></i></div>
+        <h3 class="program-title" data-i18n="program_mma_title">MMA</h3>
+        <p class="program-description" data-i18n="program_mma_desc">Mixed martial arts combining multiple combat disciplines</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-music"></i></div>
+        <h3 class="program-title" data-i18n="program_zumba_title">Zumba</h3>
+        <p class="program-description" data-i18n="program_zumba_desc">Fun fitness program combining dance and aerobic movements</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-weight-hanging"></i></div>
+        <h3 class="program-title" data-i18n="program_weightloss_title">Weight Loss</h3>
+        <p class="program-description" data-i18n="program_weightloss_desc">Targeted programs for effective and sustainable weight management</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-heartbeat"></i></div>
+        <h3 class="program-title" data-i18n="program_physicaltherapy_title">Physical Therapy</h3>
+        <p class="program-description" data-i18n="program_physicaltherapy_desc">Rehabilitation and recovery-focused training programs</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-dumbbell"></i></div>
+        <h3 class="program-title" data-i18n="program_overallfitness_title">Overall Fitness</h3>
+        <p class="program-description" data-i18n="program_overallfitness_desc">Comprehensive fitness training for general health and wellness</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-fist-raised" style="font-size: 48px; color: #d32f2f;"></i></div>
+        <h3 class="program-title" data-i18n="program_boxing_title">Boxing</h3>
+        <p class="program-description" data-i18n="program_boxing_desc">Traditional boxing techniques for fitness and self-defense</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-heart"></i></div>
+        <h3 class="program-title" data-i18n="program_cardio_title">Cardio Boxing</h3>
+        <p class="program-description" data-i18n="program_cardio_desc">High-energy cardio workout using boxing movements</p>
+      </div>
+      <div class="program-card">
+        <div class="program-icon"><i class="fas fa-leaf"></i></div>
+        <h3 class="program-title" data-i18n="program_yoga_title">Yoga</h3>
+        <p class="program-description" data-i18n="program_yoga_desc">Mind-body practice focusing on flexibility, strength, and mindfulness</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Specialized Training Section -->
+<section id="specialized-training" class="section specialized-training-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="specialized_training_title">Specialized Training</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle" data-i18n="specialized_training_subtitle">Elite and focused training for every individual need</p>
+    </div>
+
+    <div class="specialized-training-grid">
+
+      <!-- 1. Private Coaching -->
+      <div class="training-row bg-light">
+        <div class="training-image left">
+          <img src="kickboxing.jpg" alt="" data-i18n="[attr.alt]specialized_private_coaching_alt" />
+        </div>
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_private_coaching_title">Private Coaching</strong></h3>
+          <p data-i18n="specialized_private_coaching_p1">The Best Coaches in the UAE. With the right coach, the impossible becomes possible. Maximize your potential with our elite coaches.</p>
+          <p data-i18n="specialized_private_coaching_p2">Get paired with your perfect fit. From Muay Thai to functional fitness, we have a coach for you.</p>
+        </div>
+      </div>
+
+      <!-- 2. Youth Kickboxing -->
+      <div class="training-row bg-white">
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_youth_kickboxing_title">Youth Kickboxing</strong></h3>
+          <p data-i18n="specialized_youth_kickboxing_p1">Get your child moving with high-energy youth kickboxing classes — the perfect mix of fitness, focus, and fun.</p>
+          <p data-i18n="specialized_youth_kickboxing_p2">Structured and safe environment that builds strength, agility, and self-confidence through drills and movement.</p>
+        </div>
+        <div class="training-image right">
+          <img src="kick_boxing.jpg" alt="" data-i18n="[attr.alt]specialized_youth_kickboxing_alt" />
+        </div>
+      </div>
+
+      <!-- 3. Group Classes -->
+      <div class="training-row bg-light">
+        <div class="training-image left">
+          <img src="kids group (1).jpg" alt="" data-i18n="[attr.alt]specialized_group_classes_alt" />
+        </div>
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_group_classes_title">Group Classes</strong></h3>
+          <p data-i18n="specialized_group_classes_p1">Train with a motivated community and push each other to new heights. Group workouts are designed to be fun, challenging, and full of energy.</p>
+          <p data-i18n="specialized_group_classes_p2">From high-intensity cardio to martial arts fundamentals, our group classes suit all levels.</p>
+        </div>
+      </div>
+
+      <!-- 4. Women-Only Training -->
+      <div class="training-row bg-white">
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_women_only_title">Women-Only Training</strong></h3>
+          <p data-i18n="specialized_women_only_p1">A safe, empowering space for women to train confidently and comfortably. Designed by expert female instructors.</p>
+          <p data-i18n="specialized_women_only_p2">Build strength, confidence, and resilience through tailored programs that suit your goals and fitness level.</p>
+        </div>
+        <div class="training-image right">
+          <img src="ddd.jpg" alt="" data-i18n="[attr.alt]specialized_women_only_alt" />
+        </div>
+      </div>
+
+      <!-- 5. Strength & Conditioning -->
+      <div class="training-row bg-light">
+        <div class="training-image left">
+          <img src="kickboxing.jpg" alt="" data-i18n="[attr.alt]specialized_strength_conditioning_alt" />
+        </div>
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_strength_conditioning_title">Strength & Conditioning</strong></h3>
+          <p data-i18n="specialized_strength_conditioning_p1">Power through your limits with science-backed training methods. Enhance speed, endurance, agility, and muscle growth.</p>
+          <p data-i18n="specialized_strength_conditioning_p2">Ideal for athletes and everyday warriors. Experience functional fitness that delivers real-world performance.</p>
+        </div>
+      </div>
+
+      <!-- 6. Kids Martial Arts -->
+      <div class="training-row bg-white">
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_kids_martial_arts_title">Kids Martial Arts</strong></h3>
+          <p data-i18n="specialized_kids_martial_arts_p1">Build discipline, confidence, and respect through fun, structured martial arts classes tailored for children.</p>
+          <p data-i18n="specialized_kids_martial_arts_p2">Our certified coaches create a safe and engaging environment for kids to learn self-defense and stay active.</p>
+        </div>
+        <div class="training-image right">
+          <img src="kids training.jpg" alt="" data-i18n="[attr.alt]specialized_kids_martial_arts_alt" />
+        </div>
+      </div>
+
+      <!-- 7. Flexibility & Recovery -->
+      <div class="training-row bg-light">
+        <div class="training-image left">
+          <img src="stretching.jpg" alt="" data-i18n="[attr.alt]specialized_flexibility_recovery_alt" />
+        </div>
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_flexibility_recovery_title">Flexibility & Recovery</strong></h3>
+          <p data-i18n="specialized_flexibility_recovery_p1">Optimize your performance with recovery routines, guided stretching, and mobility training.</p>
+          <p data-i18n="specialized_flexibility_recovery_p2">Perfect for athletes and anyone looking to improve posture, reduce injury, and feel their best.</p>
+        </div>
+      </div>
+
+      <!-- 8. Self-Defense Training -->
+      <div class="training-row bg-white">
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_self_defense_title">Self-Defense Training</strong></h3>
+          <p data-i18n="specialized_self_defense_p1">Learn practical, effective techniques to protect yourself in real-life scenarios.</p>
+          <p data-i18n="specialized_self_defense_p2">Our programs cover situational awareness, striking, escapes, and more—taught by experienced professionals.</p>
+        </div>
+        <div class="training-image right">
+          <img src="muay thai (1).jpg" alt="" data-i18n="[attr.alt]specialized_self_defense_alt" />
+        </div>
+      </div>
+
+      <!-- 9. Muay Thai Training -->
+      <div class="training-row bg-light">
+        <div class="training-image left">
+          <img src="muay thai (2).jpg" alt="" data-i18n="[attr.alt]specialized_muay_thai_alt" />
+        </div>
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_muay_thai_title">Muay Thai Training</strong></h3>
+          <p data-i18n="specialized_muay_thai_p1">Master the art of eight limbs with authentic Muay Thai training. Improve your striking, power, and endurance.</p>
+          <p data-i18n="specialized_muay_thai_p2">From beginners to advanced fighters, our sessions are tailored to help you grow technically and physically.</p>
+        </div>
+      </div>
+
+      <!-- 10. Taekwondo Training -->
+      <div class="training-row bg-white">
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_taekwondo_title">Taekwondo Training</strong></h3>
+          <p data-i18n="specialized_taekwondo_p1">Master the art of powerful kicks, discipline, and speed with our traditional Taekwondo programs.</p>
+          <p data-i18n="specialized_taekwondo_p2">Whether you're a beginner or advancing through the belts, our classes focus on precision, confidence, and personal growth.</p>
+        </div>
+        <div class="training-image right">
+          <img src="taekowndo.jpg" alt="" data-i18n="[attr.alt]specialized_taekwondo_alt" />
+        </div>
+      </div>
+
+      <!-- 11. Karate Training -->
+      <div class="training-row bg-light">
+        <div class="training-image left">
+          <img src="karate.jpg" alt="" data-i18n="[attr.alt]specialized_karate_alt" />
+        </div>
+        <div class="training-content">
+          <h3 class="training-title"><strong data-i18n="specialized_karate_title">Karate Training</strong></h3>
+          <p data-i18n="specialized_karate_p1">Develop discipline, focus, and physical strength through the traditional art of Karate. Perfect for all ages and skill levels.</p>
+          <p data-i18n="specialized_karate_p2">Our classes cover kata, kumite, and self-defense, guided by certified black belt instructors in a safe and respectful environment.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- Schedule Section -->
+<section id="schedule" class="section schedule-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="schedule_title">Weekly Schedule</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle" data-i18n="schedule_subtitle">Flexible training times to fit your lifestyle</p>
+    </div>
+    <div class="schedule-container">
+      <div class="schedule-table-wrapper">
+        <table class="schedule-table">
+          <thead>
+            <tr>
+              <th data-i18n="schedule_time">Time</th>
+              <th data-i18n="schedule_monday">Monday</th>
+              <th data-i18n="schedule_tuesday">Tuesday</th>
+              <th data-i18n="schedule_wednesday">Wednesday</th>
+              <th data-i18n="schedule_thursday">Thursday</th>
+              <th data-i18n="schedule_friday">Friday</th>
+              <th data-i18n="schedule_saturday">Saturday</th>
+              <th data-i18n="schedule_sunday">Sunday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="time-slot">8:00 AM - 9:00 AM</td>
+              <td data-i18n="schedule_fitness">Fitness</td>
+              <td></td>
+              <td data-i18n="schedule_fitness">Fitness</td>
+              <td></td>
+              <td data-i18n="schedule_fitness">Fitness</td>
+              <td data-i18n="schedule_customer_choice">Customer Choice</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-slot">4:00 PM - 5:00 PM</td>
+              <td data-i18n="schedule_karate">Karate</td>
+              <td data-i18n="schedule_karate">Karate</td>
+              <td data-i18n="schedule_karate">Karate</td>
+              <td data-i18n="schedule_karate">Karate</td>
+              <td data-i18n="schedule_karate">Karate</td>
+              <td></td>
+              <td data-i18n="schedule_karate">Karate</td>
+            </tr>
+            <tr>
+              <td class="time-slot">5:00 PM - 6:00 PM</td>
+              <td data-i18n="schedule_taekwondo">Taekwondo</td>
+              <td data-i18n="schedule_kickboxing">Kickboxing</td>
+              <td data-i18n="schedule_taekwondo">Taekwondo</td>
+              <td data-i18n="schedule_kickboxing">Kickboxing</td>
+              <td data-i18n="schedule_taekwondo">Taekwondo</td>
+              <td></td>
+              <td data-i18n="schedule_kickboxing">Kickboxing</td>
+            </tr>
+            <tr>
+              <td class="time-slot">6:00 PM - 7:00 PM</td>
+              <td data-i18n="schedule_taekwondo">Taekwondo</td>
+              <td data-i18n="schedule_kickboxing">Kickboxing</td>
+              <td data-i18n="schedule_taekwondo">Taekwondo</td>
+              <td data-i18n="schedule_kickboxing">Kickboxing</td>
+              <td data-i18n="schedule_taekwondo">Taekwondo</td>
+              <td></td>
+              <td data-i18n="schedule_kickboxing">Kickboxing</td>
+            </tr>
+            <tr>
+              <td class="time-slot">7:00 PM - 8:00 PM</td>
+              <td data-i18n="schedule_boxing">Boxing</td>
+              <td></td>
+              <td data-i18n="schedule_boxing">Boxing</td>
+              <td></td>
+              <td data-i18n="schedule_boxing">Boxing</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-slot">7:30 PM - 8:30 PM</td>
+              <td></td>
+              <td data-i18n="schedule_muay_thai">Muay Thai</td>
+              <td></td>
+              <td data-i18n="schedule_muay_thai">Muay Thai</td>
+              <td></td>
+              <td></td>
+              <td data-i18n="schedule_muay_thai">Muay Thai</td>
+            </tr>
+            <tr>
+              <td class="time-slot">8:00 PM - 9:00 PM</td>
+              <td data-i18n="schedule_zumba">Zumba</td>
+              <td></td>
+              <td data-i18n="schedule_zumba">Zumba</td>
+              <td></td>
+              <td data-i18n="schedule_zumba">Zumba</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td class="time-slot">8:30 PM - 9:30 PM</td>
+              <td></td>
+              <td data-i18n="schedule_karate">Karate</td>
+              <td></td>
+              <td data-i18n="schedule_karate">Karate</td>
+              <td></td>
+              <td></td>
+              <td data-i18n="schedule_karate">Karate</td>
+            </tr>
+            <tr>
+              <td class="time-slot" data-i18n="schedule_note">Note</td>
+              <td colspan="7" data-i18n="schedule_custom_fitness">Gym & Home Fitness: Customers can create their own schedule.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Coaching Section -->
+<section id="coaching" class="section coaching-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="coaching_title">Our Expert Coaches</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle" data-i18n="coaching_subtitle">Meet our certified professionals dedicated to your success</p>
+    </div>
+
+    <!-- Coaches Grid -->
+    <div class="coaches-grid">
+
+      <!-- Coach Sakina -->
+      <div class="coach-card">
+        <div class="coach-image">
+          <img src="coachsakina.jpg" alt="" data-i18n="[alt]coach_sakina_alt">
+          <div class="coach-overlay">
+            <div class="coach-bio">
+              <h4 data-i18n="coach_sakina_name">Coach Sakina</h4>
+              <p data-i18n="coach_sakina_bio">7+ years in MMA and Muay Thai. Former professional fighter with extensive coaching experience across UAE and Thailand.</p>
+            </div>
+          </div>
+        </div>
+        <div class="coach-details">
+          <h3 class="coach-name" data-i18n="coach_sakina_name">Coach Sakina</h3>
+          <p class="coach-specialty" data-i18n="coach_sakina_specialty">MMA & Muay Thai Specialist</p>
+        </div>
+      </div>
+
+      <!-- Coach Abdullah -->
+      <div class="coach-card">
+        <div class="coach-image">
+          <img src="coach abdullah.jpg" alt="" data-i18n="[alt]coach_abdullah_alt">
+          <div class="coach-overlay">
+            <div class="coach-bio">
+              <h4 data-i18n="coach_abdullah_name">Coach Abdul Majid Aqqawi</h4>
+              <p data-i18n="coach_abdullah_bio">Black belt in Karate and Taekwondo. Specialized in youth training and men's self-defense programs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="coach-details">
+          <h3 class="coach-name" data-i18n="coach_abdullah_name">Coach Abdul Majid Aqqawi</h3>
+          <p class="coach-specialty" data-i18n="coach_abdullah_specialty">Karate & Taekwondo Master</p>
+        </div>
+      </div>
+
+      <!-- Coach Jeehan -->
+      <div class="coach-card">
+        <div class="coach-image">
+          <img src="coach jeehan.jpg" alt="" data-i18n="[alt]coach_jeehan_alt">
+          <div class="coach-overlay">
+            <div class="coach-bio">
+              <h4 data-i18n="coach_jeehan_name">Coach Jihan Almezyaty</h4>
+              <p data-i18n="coach_jeehan_bio">8 years of experience in fitness & combat!karate, Boxing, Zumba, Aerobics & Rehabilitation training workouts . Get ready to unleash your energy and transform your lifestyle!</p>
+            </div>
+          </div>
+        </div>
+        <div class="coach-details">
+          <h3 class="coach-name" data-i18n="coach_jeehan_name">Coach Jihan Almezyaty</h3>
+          <p class="coach-specialty" data-i18n="coach_jeehan_specialty">Fitness & Boxing Coach</p>
+        </div>
+      </div>
+
+      <!-- Coach Daniel -->
+      <div class="coach-card">
+        <div class="coach-image">
+          <img src="coach daniel.jpg" alt="" data-i18n="[alt]coach_daniel_alt">
+          <div class="coach-overlay">
+            <div class="coach-bio">
+              <h4 data-i18n="coach_daniel_name">Coach Dunya Al-Muzayyati</h4>
+              <p data-i18n="coach_daniel_bio">Licensed Rehabilitation training and yoga instructor. Specializes in rehabilitation and therapeutic fitness programs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="coach-details">
+          <h3 class="coach-name" data-i18n="coach_daniel_name">Coach Dunya Al-Muzayyati</h3>
+          <p class="coach-specialty" data-i18n="coach_daniel_specialty">Rehabilitation training & Yoga</p>
+        </div>
+      </div>
+
+      <!-- Coach Abdulaziz -->
+      <div class="coach-card">
+        <div class="coach-image">
+          <img src="coach tafsir.jpg" alt="" data-i18n="[alt]coach_abdulaziz_alt">
+          <div class="coach-overlay">
+            <div class="coach-bio">
+              <h4 data-i18n="coach_abdulaziz_name">Abdulaziz Tayseer</h4>
+              <p data-i18n="coach_abdulaziz_bio">Fitness and martial arts expert with 6 years of experience! Specializes in Taekwondo, Muay Thai, Boxing, and physical conditioning.</p>
+            </div>
+          </div>
+        </div>
+        <div class="coach-details">
+          <h3 class="coach-name" data-i18n="coach_abdulaziz_name">Coach Abdulaziz Tayseer</h3>
+          <p class="coach-specialty" data-i18n="coach_abdulaziz_specialty">Fitness & Martial Arts</p>
+        </div>
+      </div>
+
+      <!-- Coach Driss -->
+      <div class="coach-card">
+        <div class="coach-image">
+          <img src="driss.jpg" alt="" data-i18n="[alt]coach_driss_alt">
+          <div class="coach-overlay">
+            <div class="coach-bio">
+              <h4 data-i18n="coach_driss_name">Coach Idrees Jarfi</h4>
+              <p data-i18n="coach_driss_bio">Fitness & martial arts expert with 9 years of experience! Taekwondo, Muay Thai, Boxing & Rehabilitation training. Let’s take your performance to the next level!</p>
+            </div>
+          </div>
+        </div>
+        <div class="coach-details">
+          <h3 class="coach-name" data-i18n="coach_driss_name">Coach Driss Jarfi</h3>
+          <p class="coach-specialty" data-i18n="coach_driss_specialty">Fitness & Martial Arts</p>
+        </div>
+      </div>
+
+      <!-- Coach Sanaa -->
+      <div class="coach-card">
+        <div class="coach-image">
+          <img src="coach sanaa.jpg" alt="" data-i18n="[alt]coach_sanaa_alt">
+          <div class="coach-overlay">
+            <div class="coach-bio">
+              <h4 data-i18n="coach_sanaa_name">Sanaa Al-Bukhari</h4>
+              <p data-i18n="coach_sanaa_bio">Fitness and martial arts coach with 6 years of experience! Specializes in aerobics, Taekwondo, kickboxing, Zumba, and rehabilitation exercises. Ready to ignite your energy!</p>
+            </div>
+          </div>
+        </div>
+        <div class="coach-details">
+          <h3 class="coach-name" data-i18n="coach_sanaa_name">Coach Sanaa Al-Bukhari</h3>
+          <p class="coach-specialty" data-i18n="coach_sanaa_specialty">Aerobics, Kickboxing & Rehab Training</p>
+        </div>
+      </div>
+
+      <!-- Coach Atika -->
+      <div class="coach-card">
+        <div class="coach-image">
+          <img src="coACH HIJAB.jpg" alt="" data-i18n="[alt]coach_atika_alt">
+          <div class="coach-overlay">
+            <div class="coach-bio">
+              <h4 data-i18n="coach_atika_name">Atika Al-Fattoumi</h4>
+              <p data-i18n="coach_atika_bio">Fitness and martial arts coach with 7 years of experience in Taekwondo, Boxing, and general fitness! Specializes in Zumba, aerobics, physical conditioning, body toning, and muscle building. Ready to transform your fitness journey!</p>
+            </div>
+          </div>
+        </div>
+        <div class="coach-details">
+          <h3 class="coach-name" data-i18n="coach_atika_name">Coach Atika Al-Fattoumi</h3>
+          <p class="coach-specialty" data-i18n="coach_atika_specialty">Taekwondo, Boxing & Body Sculpting</p>
+        </div>
+      </div>
+
+    </div> <!-- End of coaches-grid -->
+  </div> <!-- End of container -->
+</section>
+
+
+
+
+<!-- Well-Being Section -->
+<section id="well-being" class="section well-being-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="wellbeing_title">Physical & Mental Well-Being</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle" data-i18n="wellbeing_subtitle">Transform your body and mind through our holistic approach</p>
+    </div>
+    <div class="wellbeing-grid">
+      <div class="wellbeing-card">
+        <div class="wellbeing-icon">
+          <i class="fas fa-heart"></i>
+        </div>
+        <h3 class="wellbeing-title" data-i18n="wellbeing_physical_health_title">Physical Health</h3>
+        <ul class="wellbeing-list">
+          <li data-i18n="wellbeing_physical_1">Improved cardiovascular fitness</li>
+          <li data-i18n="wellbeing_physical_2">Enhanced muscle strength and endurance</li>
+          <li data-i18n="wellbeing_physical_3">Better flexibility and mobility</li>
+          <li data-i18n="wellbeing_physical_4">Weight management and body composition</li>
+          <li data-i18n="wellbeing_physical_5">Stronger immune system</li>
+          <li data-i18n="wellbeing_physical_6">Reduced risk of chronic diseases</li>
+        </ul>
+      </div>
+      <div class="wellbeing-card">
+        <div class="wellbeing-icon">
+          <i class="fas fa-brain"></i>
+        </div>
+        <h3 class="wellbeing-title" data-i18n="wellbeing_mental_health_title">Mental Health</h3>
+        <ul class="wellbeing-list">
+          <li data-i18n="wellbeing_mental_1">Stress reduction and management</li>
+          <li data-i18n="wellbeing_mental_2">Improved mood and emotional balance</li>
+          <li data-i18n="wellbeing_mental_3">Enhanced self-confidence and esteem</li>
+          <li data-i18n="wellbeing_mental_4">Better sleep quality</li>
+          <li data-i18n="wellbeing_mental_5">Increased focus and concentration</li>
+          <li data-i18n="wellbeing_mental_6">Mental resilience and toughness</li>
+        </ul>
+      </div>
+      <div class="wellbeing-card">
+        <div class="wellbeing-icon">
+          <i class="fas fa-users"></i>
+        </div>
+        <h3 class="wellbeing-title" data-i18n="wellbeing_social_benefits_title">Social Benefits</h3>
+        <ul class="wellbeing-list">
+          <li data-i18n="wellbeing_social_1">Building discipline and respect</li>
+          <li data-i18n="wellbeing_social_2">Developing teamwork skills</li>
+          <li data-i18n="wellbeing_social_3">Creating lasting friendships</li>
+          <li data-i18n="wellbeing_social_4">Improved communication abilities</li>
+          <li data-i18n="wellbeing_social_5">Leadership development</li>
+          <li data-i18n="wellbeing_social_6">Cultural awareness and appreciation</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Philosophy Section -->
+<section id="philosophy" class="section philosophy-section">
+    <div class="philosophy-background">
+        <div class="philosophy-overlay"></div>
+    </div>
+    <div class="philosophy-content">
+        <div class="container">
+            <blockquote class="philosophy-quote" data-i18n="philosophy_quote">
+                Discipline. Integrity. Focus.
+            </blockquote>
+            <p class="philosophy-text" data-i18n="philosophy_text">
+                These core values guide every aspect of our training. We believe that true strength comes from within, 
+                and our mission is to help you discover your potential while building character that extends far beyond the training mat.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="section testimonials-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title" data-i18n="testimonials_title">What Our Clients Say</h2>
+            <div class="section-divider"></div>
+            <p class="section-subtitle" data-i18n="testimonials_subtitle">Real stories from our training community</p>
+        </div>
+        <div class="testimonials-slider" id="testimonials-slider">
+            <div class="testimonial-slide active">
+                <div class="testimonial-content">
+                    <div class="testimonial-text" data-i18n="testimonial_1_text">
+                        "My seven-month experience at Home Fitness was truly unique. I trained in Muay Thai and various martial arts, and I developed myself significantly in terms of strength, fitness, and focus. The place is comfortable and stimulating, and everything is organized and encourages perseverance."
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="sreehari (1).jpg" alt="sree" class="author-image">
+                        <div class="author-info">
+                            <div class="author-name" data-i18n="testimonial_1_name">Rashid</div>
+                            <div class="author-title" data-i18n="testimonial_1_title">Dubai Resident</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <div class="testimonial-text" data-i18n="testimonial_2_text">
+                        "I would like to thank Coach Samir, who never failed me. He supported me, taught me the basics, and helped me prepare for my first tournament. Thanks to him and my hard work, I entered the tournament and won second place. It was a wonderful and very encouraging experience. Home Fitness is not just a club; it's a stimulating environment. It's clean, organized, and everything is geared toward helping you focus and develop. The training there was intense and varied, and every day presented a new challenge. Best of all, the coach never fails. He's understanding, patient, and always encourages you to give your best."
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="samanta (1).jpg" alt="samanta" class="author-image">
+                        <div class="author-info">
+                            <div class="author-name" data-i18n="testimonial_2_name">Omar Hassan</div>
+                            <div class="author-title" data-i18n="testimonial_2_title">Civil Officer</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="testimonial-controls">
+            <button class="testimonial-btn prev-btn" id="prev-testimonial">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="testimonial-dots" id="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+            <button class="testimonial-btn next-btn" id="next-testimonial">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+  <style>
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: all 0.3s ease;
+      background-color: white;
+    }
+
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+      outline: none;
+    }
+
+    .animated-dropdown label {
+      font-weight: bold;
+      color: #007bff;
+      margin-bottom: 6px;
+      display: block;
+      font-size: 1rem;
+    }
+
+    .submit-btn {
+      background: #007bff;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 1.1rem;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.3s ease;
+    }
+
+    .submit-btn:hover {
+      background: #0056b3;
+    }
+
+    .popup-message {
+      margin-top: 15px;
+      background: #007bff;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 15px rgba(0, 123, 255, 0.2);
+      font-weight: bold;
+      display: none;
+    }
+  </style>
+
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title" data-i18n="contact_title">Get Started Today</h2>
+      <div class="section-divider"></div>
+      <p class="section-subtitle" data-i18n="contact_subtitle">Contact us to begin your martial arts journey</p>
+    </div>
+
+    <div class="contact-content">
+      <div class="contact-form-container">
+        <form class="contact-form" id="contact-form" action="https://formsubmit.co/4f944b01beef2ad73d12a0b5c53fad49" method="POST">
+          <input type="hidden" name="_redirect" value="javascript:void(0);">
+          <input type="hidden" name="_captcha" value="false">
+
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" data-i18n-placeholder="contact_name_placeholder" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" data-i18n-placeholder="contact_email_placeholder" required>
+          </div>
+          <div class="form-group">
+            <input type="tel" name="phone" placeholder="Your Phone Number" data-i18n-placeholder="contact_phone_placeholder" required>
+          </div>
+
+          <div class="form-group animated-dropdown">
+            <label for="fitnessType" data-i18n="contact_select_label">Select Service Type</label>
+            <select name="fitness_type" id="fitnessType" required>
+              <option value="" disabled selected data-i18n="contact_select_option_default">Select an option</option>
+              <option value="Home Fitness" data-i18n="contact_select_option_home">Home Service</option>
+              <option value="Gym Fitness" data-i18n="contact_select_option_academy">Academy Fitness</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <textarea name="message" placeholder="Tell us about your fitness goals" data-i18n-placeholder="contact_message_placeholder" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">
+            <span class="btn-text" data-i18n="contact_button">Send Message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+
+          <div id="form-success" class="popup-message" data-i18n="contact_success">✅ Message sent successfully!</div>
+        </form>
+      </div>
+
+      <div class="contact-info-container">
+        <div class="contact-info">
+          <h3 data-i18n="contact_visit_title">Visit Our Head Office</h3>
+          <p class="contact-description" data-i18n="contact_visit_description">
+            We offer in-home martial arts and fitness coaching across all of the UAE.
+            Our head office is located at Marhaba Mall, Ras Al Khor Industrial Area 3, Dubai.
+          </p
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span data-i18n="contact_address">Marhaba Mall, Ras Al Khor Industrial Area 3, Dubai, UAE</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span data-i18n="contact_phone">+971 50 123 4567</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span data-i18n="contact_email">homefitnessmmaacademy@gmail.com</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.6206566818987!2d55.37467447394755!3d25.18228363230733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f67003f0ef79d%3A0x6cb581f269d7cbf7!2sHOME%20FITNESS%20MMA!5e0!3m2!1sen!2sae!4v1752411535091!5m2!1sen!2sae"
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Blue Popup CSS -->
+  <style>
+    .popup-message {
+      display: none;
+      margin-top: 15px;
+      padding: 12px 20px;
+      background-color: #007bff;
+      color: white;
+      font-weight: bold;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+      transition: all 0.4s ease;
+      animation: fadeIn 0.5s ease forwards;
+      text-align: center;
+    }
+  
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+  
+  <!-- JavaScript for Form Success Message -->
+  <script>
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+  
+      const form = e.target;
+      const formData = new FormData(form);
+  
+      fetch(form.action, {
+        method: "POST",
+        body: formData,
+        headers: { 'Accept': 'application/json' }
+      }).then(response => {
+        if (response.ok) {
+          form.reset();
+          document.getElementById("form-success").style.display = "block";
+          setTimeout(() => {
+            document.getElementById("form-success").style.display = "none";
+          }, 4000);
+        } else {
+          alert("Something went wrong while sending your message.");
+        }
+      }).catch(error => {
+        alert("Failed to submit form: " + error.message);
+      });
+    });
+  </script>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-info">
+        <h3 data-i18n="footer_title">MMA HomeFitness Academy</h3>
+        <p data-i18n="footer_description">Bringing professional martial arts and fitness training to your home across the UAE.</p>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/home.fitness.mma/s" target="_blank" class="social-link" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.tiktok.com/@mma_home_fitness" target="_blank" class="social-link" aria-label="TikTok">
+          <i class="fab fa-tiktok"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=971545425490&text&type=phone_number&app_absent=0" target="_blank" class="social-link" aria-label="WhatsApp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer_copyright">&copy; 2024 MMA HomeFitness Academy. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+<style>
+
+
+#contact-bubble {
+  position: fixed;
+  bottom: 100px;
+  right: 38px;
+  background: #007bff;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+  z-index: 1000;
+  display: none;
+
+  /* Text alignment */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#contact-bubble:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 18px rgba(0, 123, 255, 0.9);
+}
+
+
+
+    </style>
+    
+
+<div id="contact-bubble" title="Contact Us" data-i18n="contact_bubble_text">
+  Contact Us
+</div>
+
+     
+     <script>
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const bubble = document.getElementById('contact-bubble');
+    const heroSection = document.querySelector('.hero-section');
+    const loader = document.getElementById('loader');
+
+    const currentPath = window.location.pathname.toLowerCase();
+    const homePaths = ['/', '/index.html', '/home.html'];
+
+    function showBubbleAfterLoader() {
+      const isLoaderHidden = !loader || loader.style.display === 'none' || loader.classList.contains('hidden');
+
+      if (!isLoaderHidden) {
+        const observer = new MutationObserver(() => {
+          if (!loader || loader.style.display === 'none' || loader.classList.contains('hidden')) {
+            observer.disconnect();
+            activateBubble();
+          }
+        });
+        observer.observe(loader, { attributes: true, attributeFilter: ['style', 'class'] });
+      } else {
+        activateBubble();
+      }
+    }
+
+    function activateBubble() {
+      if (homePaths.includes(currentPath)) {
+        function toggleBubble() {
+          const heroBottom = heroSection.getBoundingClientRect().bottom;
+          if (heroBottom < 0) {
+            bubble.style.display = 'flex';
+          } else {
+            bubble.style.display = 'none';
+          }
+        }
+
+        toggleBubble();
+        window.addEventListener('scroll', toggleBubble);
+      } else {
+        bubble.style.display = 'flex';
+      }
+
+      bubble.addEventListener('click', () => {
+        const contact = document.getElementById('contact');
+        if (contact) {
+          contact.scrollIntoView({ behavior: 'smooth' });
+        } else {
+          window.location.href = "/index.html#contact";
+        }
+      });
+    }
+
+    showBubbleAfterLoader();
+  });
+
+
+
+    </script>
+    
+    
+ 
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top-btn" id="scroll-top-btn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+    <script src="pop.js"></script>
+    <!-- <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const toggle = document.getElementById('nav-toggle');
+  const menu = document.getElementById('nav-menu');
+
+  function toggleMenu() {
+    menu.classList.toggle('active');
+    document.body.classList.toggle('menu-open', menu.classList.contains('active'));
+  }
+
+  toggle.addEventListener('click', toggleMenu);
+
+  // Accessibility: keyboard toggle
+  toggle.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      toggleMenu();
+    }
+  });
+
+  // **New: close menu and enable scroll when a nav link is clicked**
+  menu.querySelectorAll('a.nav-link').forEach(link => {
+    link.addEventListener('click', () => {
+      menu.classList.remove('active');
+      document.body.classList.remove('menu-open');
+    });
+  });
+});
+
+
+
+</script> -->
+
+<!-- <script>
+  const loader = document.getElementById("loader");
+  const popup = document.getElementById("language-popup");
+  const MIN_LOADER_TIME = 2000; // in milliseconds
+
+  window.addEventListener("load", () => {
+    const startTime = performance.now();
+
+    const elapsed = () => performance.now() - startTime;
+    const wait = MIN_LOADER_TIME - elapsed();
+
+    setTimeout(() => {
+      if (loader) loader.style.display = "none";
+
+      const lang = localStorage.getItem("preferredLanguage");
+      if (lang) {
+        applyLanguage(lang);
+      } else {
+        popup.style.display = "flex";
+      }
+    }, wait > 0 ? wait : 0);
+  });
+
+  document.getElementById("btn-en").addEventListener("click", () => {
+    applyLanguage("en");
+  });
+
+  document.getElementById("btn-ar").addEventListener("click", () => {
+    applyLanguage("ar");
+  });
+
+  function applyLanguage(lang) {
+    localStorage.setItem("preferredLanguage", lang);
+    document.documentElement.lang = lang;
+    document.documentElement.dir = lang === "ar" ? "rtl" : "ltr";
+    popup.style.display = "none";
+
+    fetch(`/i18n/${lang}.json`)
+      .then((res) => res.json())
+      .then((translations) => {
+        document.querySelectorAll("[data-i18n]").forEach((el) => {
+          const key = el.getAttribute("data-i18n");
+          if (translations[key]) {
+            el.textContent = translations[key];
+          }
+        });
+      })
+      .catch((err) => console.error("Translation loading error:", err));
+  }
+</script> -->
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const slides = document.querySelectorAll(".testimonial-slide");
+    const dots = document.querySelectorAll(".dot");
+    const prevBtn = document.getElementById("prev-testimonial");
+    const nextBtn = document.getElementById("next-testimonial");
+
+    let currentIndex = 0;
+
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.remove("active");
+        dots[i].classList.remove("active");
+        if (i === index) {
+          slide.classList.add("active");
+          dots[i].classList.add("active");
+        }
+      });
+    }
+
+    prevBtn.addEventListener("click", function () {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    });
+
+    nextBtn.addEventListener("click", function () {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    });
+
+    dots.forEach((dot, index) => {
+      dot.addEventListener("click", function () {
+        currentIndex = index;
+        showSlide(currentIndex);
+      });
+    });
+
+    // Optional: Auto-slide every 6 seconds
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }, 3000);
+
+    // Initialize first slide
+    showSlide(currentIndex);
+  });
+</script>
+
+
+
+
+</body>
+</html>

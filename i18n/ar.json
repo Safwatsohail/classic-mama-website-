@@ -1,0 +1,262 @@
+{
+  "brand_name": "أكاديمية إم إم أي للتدريب المنزلي",
+  "nav_home": "الرئيسية",
+  "nav_about": "حول",
+  "nav_programs": "البرامج",
+  "nav_specialized": "تدريب متخصص",
+  "nav_schedule": "الجدول",
+  "nav_coaching": "التدريب",
+  "nav_wellbeing": "الرفاهية",
+  "nav_philosophy": "الفلسفة",
+  "nav_testimonials": "آراء العملاء",
+  "nav_contact": "اتصل بنا",
+
+  "home_title": "تدرّب كالمحترفين. تدرّب في المنزل.",
+  "home_subtitle": "تدريب احترافي في فنون القتال واللياقة البدنية إلى باب منزلك في جميع أنحاء الإمارات",
+  "home_cta": "احجز تجربة مجانية",
+   "about_title": "حول أكاديمية إم إم أي للتدريب المنزلي",
+  "about_description_1": "تقدم أكاديمية إم إم أي للتدريب المنزلي تدريبًا عالمي المستوى في فنون القتال واللياقة البدنية مباشرة إلى منزلك. يتخصص مدربونا المعتمدون في مختلف فنون القتال واللياقة، مما يضمن تدريبًا شخصيًا يناسب جدولك وأهدافك.",
+  "about_description_2": "سواء كنت مبتدئًا ترغب في تعلم الدفاع عن النفس أو رياضيًا متمرسًا تسعى لتطوير مهاراتك، فإن برامجنا الشاملة تناسب جميع المستويات والأعمار.",
+  "stat_clients": "عملاء سعداء",
+  "stat_emirates": "نخدم جميع إمارات الإمارات",
+  "stat_experience": "سنوات من الخبرة",
+
+  "programs_title": "برامجنا",
+  "programs_subtitle": "برامج تدريب شاملة مصممة لجميع المستويات",
+
+  "program_taekwondo_title": "التايكوندو",
+  "program_taekwondo_desc": "فن قتالي كوري تقليدي يركز على الركلات العالية والتقنيات السريعة",
+
+  "program_karate_title": "الكاراتيه",
+  "program_karate_desc": "فن قتالي ياباني يركز على تقنيات الضرب والانضباط الذاتي",
+
+  "program_kickboxing_title": "الكيك بوكسينغ",
+  "program_kickboxing_desc": "رياضة قتالية عالية الكثافة تجمع بين الملاكمة والركل",
+
+  "program_muaythai_title": "المواي تاي",
+  "program_muaythai_desc": "فن الأطراف الثمانية - باستخدام القبضات والمرافق والركب والساقين",
+
+  "program_mma_title": "الفنون القتالية المختلطة",
+  "program_mma_desc": "مزيج من عدة فنون قتالية في برنامج تدريبي شامل",
+
+  "program_zumba_title": "الزومبا",
+  "program_zumba_desc": "برنامج لياقة ممتع يجمع بين الرقص والحركات الهوائية",
+
+  "program_weightloss_title": "فقدان الوزن",
+  "program_weightloss_desc": "برامج مخصصة لإدارة الوزن بشكل فعال ومستدام",
+
+  "program_physicaltherapy_title": "العلاج الطبيعي",
+  "program_physicaltherapy_desc": "برامج تركز على التأهيل والتعافي البدني",
+
+  "program_overallfitness_title": "اللياقة العامة",
+  "program_overallfitness_desc": "تدريب شامل من أجل الصحة العامة والعافية",
+
+  "program_boxing_title": "الملاكمة",
+  "program_boxing_desc": "تقنيات الملاكمة التقليدية للياقة البدنية والدفاع عن النفس",
+
+  "program_cardio_title": "الملاكمة القلبية",
+  "program_cardio_desc": "تمارين كارديو عالية الطاقة باستخدام حركات الملاكمة",
+
+  "program_yoga_title": "اليوغا",
+  "program_yoga_desc": "تمرين يركز على المرونة والقوة واليقظة الذهنية",
+
+  "program_jiujitsu_title": "الجيو-جيتسو",
+  "program_jiujitsu_desc": "فن قتال أرضي برازيلي يركز على الرافعة والتقنية والاستسلامات",
+
+   "specialized_training_title": "التدريب المتخصص",
+  "specialized_training_subtitle": "تدريب نخبة ومركز يلبي احتياجات كل فرد",
+
+  "specialized_private_coaching_title": "التدريب الخاص",
+  "specialized_private_coaching_p1": "أفضل المدربين في الإمارات. مع المدرب المناسب، يصبح المستحيل ممكنًا. عزز إمكاناتك مع مدربينا النخبة.",
+  "specialized_private_coaching_p2": "احصل على المدرب الذي يناسبك تمامًا. من مواي تاي إلى اللياقة الوظيفية، لدينا المدرب المناسب لك.",
+  "specialized_private_coaching_alt": "التدريب الخاص",
+
+  "specialized_youth_kickboxing_title": "ملاكمة الشباب",
+  "specialized_youth_kickboxing_p1": "حرك طفلك مع دروس ملاكمة الشباب عالية الطاقة - المزيج المثالي من اللياقة والتركيز والمتعة.",
+  "specialized_youth_kickboxing_p2": "بيئة منظمة وآمنة تبني القوة والرشاقة والثقة بالنفس من خلال التدريبات والحركات.",
+  "specialized_youth_kickboxing_alt": "ملاكمة الشباب",
+
+  "specialized_group_classes_title": "فصول جماعية",
+  "specialized_group_classes_p1": "تدرب مع مجتمع متحمس وادفع بعضكم البعض إلى آفاق جديدة. تم تصميم التمارين الجماعية لتكون ممتعة وتحديًا ومليئة بالطاقة.",
+  "specialized_group_classes_p2": "من تمارين القلب عالية الكثافة إلى أساسيات الفنون القتالية، تناسب فصولنا الجماعية جميع المستويات.",
+  "specialized_group_classes_alt": "فصول جماعية",
+
+  "specialized_women_only_title": "تدريب خاص للنساء",
+  "specialized_women_only_p1": "مكان آمن وتمكيني للنساء للتدريب بثقة وراحة. مصمم من قبل مدربات محترفات.",
+  "specialized_women_only_p2": "ابني القوة والثقة والمرونة من خلال برامج مصممة خصيصًا لتتناسب مع أهدافك ومستوى لياقتك.",
+  "specialized_women_only_alt": "تدريب خاص للنساء",
+
+  "specialized_strength_conditioning_title": "القوة والتكييف",
+  "specialized_strength_conditioning_p1": "تجاوز حدودك مع أساليب تدريب مدعومة بالعلم. حسن السرعة، والقدرة على التحمل، والرشاقة، ونمو العضلات.",
+  "specialized_strength_conditioning_p2": "مثالي للرياضيين والمحاربين اليوميين. اختبر اللياقة الوظيفية التي تقدم أداءً في العالم الحقيقي.",
+  "specialized_strength_conditioning_alt": "القوة والتكييف",
+
+  "specialized_kids_martial_arts_title": "فنون القتال للأطفال",
+  "specialized_kids_martial_arts_p1": "ابنِ الانضباط والثقة والاحترام من خلال فصول فنون القتال الممتعة والمنظمة المصممة للأطفال.",
+  "specialized_kids_martial_arts_p2": "يخلق مدربونا المعتمدون بيئة آمنة وجذابة لتعليم الأطفال الدفاع عن النفس والبقاء نشيطين.",
+  "specialized_kids_martial_arts_alt": "فنون القتال للأطفال",
+
+  "specialized_flexibility_recovery_title": "المرونة والتعافي",
+  "specialized_flexibility_recovery_p1": "حسّن أدائك مع روتينات التعافي، وتمارين التمدد الموجهة، وتدريبات الحركة.",
+  "specialized_flexibility_recovery_p2": "مثالي للرياضيين وأي شخص يرغب في تحسين الوضعية وتقليل الإصابات والشعور بأفضل حال.",
+  "specialized_flexibility_recovery_alt": "المرونة والتعافي",
+
+  "specialized_self_defense_title": "تدريب الدفاع عن النفس",
+  "specialized_self_defense_p1": "تعلم تقنيات عملية وفعالة لحماية نفسك في مواقف الحياة الحقيقية.",
+  "specialized_self_defense_p2": "تشمل برامجنا الوعي بالموقف، والضربات، والهروب، والمزيد - يتم تعليمها بواسطة محترفين ذوي خبرة.",
+  "specialized_self_defense_alt": "تدريب الدفاع عن النفس",
+
+  "specialized_muay_thai_title": "تدريب مواي تاي",
+  "specialized_muay_thai_p1": "أتقن فن الأطراف الثمانية مع تدريب مواي تاي الأصيل. حسن ضرباتك، وقوتك، وقدرتك على التحمل.",
+  "specialized_muay_thai_p2": "من المبتدئين إلى المقاتلين المتقدمين، جلساتنا مصممة لمساعدتك على النمو تقنيًا وجسديًا.",
+  "specialized_muay_thai_alt": "تدريب مواي تاي",
+
+  "specialized_taekwondo_title": "تدريب التايكوندو",
+  "specialized_taekwondo_p1": "أتقن فن الركلات القوية، والانضباط، والسرعة مع برامج التايكوندو التقليدية لدينا.",
+  "specialized_taekwondo_p2": "سواء كنت مبتدئًا أو تتقدم في الحزام، تركز فصولنا على الدقة والثقة والنمو الشخصي.",
+  "specialized_taekwondo_alt": "تدريب التايكوندو",
+
+  "specialized_karate_title": "تدريب الكاراتيه",
+  "specialized_karate_p1": "طور الانضباط والتركيز والقوة البدنية من خلال فن الكاراتيه التقليدي. مثالي لجميع الأعمار والمستويات.",
+  "specialized_karate_p2": "تشمل فصولنا الكاتا، والكوميتي، والدفاع عن النفس، تحت إشراف مدربين معتمدين ذوي أحزمة سوداء في بيئة آمنة ومحترمة.",
+  "specialized_karate_alt": "تدريب الكاراتيه",
+
+  "schedule_title": "الجدول الأسبوعي",
+  "schedule_subtitle": "مواعيد تدريب مرنة تناسب نمط حياتك",
+
+  "schedule_time": "الوقت",
+  "schedule_monday": "الاثنين",
+  "schedule_tuesday": "الثلاثاء",
+  "schedule_wednesday": "الأربعاء",
+  "schedule_thursday": "الخميس",
+  "schedule_friday": "الجمعة",
+  "schedule_saturday": "السبت",
+  "schedule_sunday": "الأحد",
+
+  "schedule_6am": "6:00 صباحًا",
+  "schedule_8am": "8:00 صباحًا",
+  "schedule_10am": "10:00 صباحًا",
+  "schedule_4pm": "4:00 مساءً",
+  "schedule_6pm": "6:00 مساءً",
+  "schedule_8pm": "8:00 مساءً",
+
+  "schedule_yoga": "يوغا",
+  "schedule_boxing": "الملاكمة",
+  "schedule_cardio_boxing": "كارديو الملاكمة",
+  "schedule_muay_thai": "مواي تاي",
+  "schedule_mma": "فنون قتالية مختلطة",
+  "schedule_rest_day": "يوم راحة",
+  "schedule_karate": "الكاراتيه",
+  "schedule_weight_loss": "فقدان الوزن",
+  "schedule_taekwondo": "تايكواندو",
+  "schedule_overall_fitness": "لياقة عامة",
+  "schedule_kickboxing": "كيك بوكسينغ",
+  "schedule_zumba": "الزومبا",
+  "schedule_physical_therapy": "العلاج الطبيعي",
+
+  "coaching_title": "مدربونا الخبراء",
+  "coaching_subtitle": "تعرف على محترفينا المعتمدين المكرسين لنجاحك",
+
+  "coach_sakina_name": "المدربة سكينة",
+  "coach_sakina_bio": "أكثر من 15 عامًا في MMA والمواي تاي. مقاتلة محترفة سابقة ذات خبرة واسعة في التدريب في الإمارات وتايلاند.",
+  "coach_sakina_specialty": "أخصائية MMA والمواي تاي",
+  "coach_sakina_alt": "صورة المدربة سكينة",
+
+  "coach_abdullah_name": "المدرب عبد الله",
+  "coach_abdullah_bio": "حاصل على الحزام الأسود في الكاراتيه والتايكواندو. متخصص في تدريب الشباب وبرامج الدفاع عن النفس للنساء.",
+  "coach_abdullah_specialty": "خبير الكاراتيه والتايكواندو",
+  "coach_abdullah_alt": "صورة المدرب عبد الله",
+
+  "coach_jeehan_name": "المدرب جيهان",
+  "coach_jeehan_bio": "مدرب لياقة معتمد مع خبرة في فقدان الوزن، الكارديو بوكسينغ، وتطوير اللياقة العامة.",
+  "coach_jeehan_specialty": "مدرب اللياقة واللكم",
+  "coach_jeehan_alt": "صورة المدرب جيهان",
+
+  "coach_daniel_name": "المدرب دانيال",
+  "coach_daniel_bio": "معالج طبيعي معتمد ومدرب يوغا. متخصص في برامج التأهيل واللياقة العلاجية.",
+  "coach_daniel_specialty": "العلاج الطبيعي واليوغا",
+  "coach_daniel_alt": "صورة المدرب دانيال",
+
+  "coach_abdulaziz_name": "عبد العزيز تيسير",
+  "coach_abdulaziz_bio": "خبير في اللياقة والفنون القتالية مع 6 سنوات من الخبرة! متخصص في التايكواندو، المواي تاي، الملاكمة، واللياقة البدنية.",
+  "coach_abdulaziz_specialty": "اللياقة والفنون القتالية",
+  "coach_abdulaziz_alt": "صورة المدرب عبد العزيز تيسير",
+
+  "coach_sanaa_name": "سناء البخاري",
+  "coach_sanaa_bio": "مدربة لياقة وفنون قتالية مع 6 سنوات من الخبرة! متخصصة في الأيروبيكس، التايكواندو، الكيك بوكسينغ، الزومبا، وتمارين التأهيل. جاهزة لإشعال طاقتك!",
+  "coach_sanaa_specialty": "الأيروبيكس، الكيك بوكسينغ، وتدريب التأهيل",
+  "coach_sanaa_alt": "صورة المدربة سناء البخاري",
+
+  "coach_atika_name": "عتيقة الفطومي",
+  "coach_atika_bio": "مدربة لياقة وفنون قتالية مع 7 سنوات من الخبرة في التايكواندو، الملاكمة، واللياقة العامة! متخصصة في الزومبا، الأيروبيكس، اللياقة البدنية، شد الجسم، وبناء العضلات. جاهزة لتحويل رحلتك في اللياقة!",
+  "coach_atika_specialty": "التايكواندو، الملاكمة، ونحت الجسم",
+  "coach_atika_alt": "صورة المدربة عتيقة الفطومي",
+  "wellbeing_title": "الصحة البدنية والعقلية",
+  "wellbeing_subtitle": "حوّل جسمك وعقلك من خلال نهجنا الشامل",
+
+  "wellbeing_physical_health_title": "الصحة البدنية",
+  "wellbeing_physical_1": "تحسين اللياقة القلبية الوعائية",
+  "wellbeing_physical_2": "تعزيز قوة العضلات والقدرة على التحمل",
+  "wellbeing_physical_3": "تحسين المرونة والحركة",
+  "wellbeing_physical_4": "إدارة الوزن وتركيب الجسم",
+  "wellbeing_physical_5": "تقوية الجهاز المناعي",
+  "wellbeing_physical_6": "تقليل خطر الأمراض المزمنة",
+
+  "wellbeing_mental_health_title": "الصحة العقلية",
+  "wellbeing_mental_1": "تقليل وإدارة التوتر",
+  "wellbeing_mental_2": "تحسين المزاج والتوازن العاطفي",
+  "wellbeing_mental_3": "تعزيز الثقة بالنفس وتقدير الذات",
+  "wellbeing_mental_4": "تحسين جودة النوم",
+  "wellbeing_mental_5": "زيادة التركيز والانتباه",
+  "wellbeing_mental_6": "المرونة العقلية والقوة النفسية",
+
+  "wellbeing_social_benefits_title": "الفوائد الاجتماعية",
+  "wellbeing_social_1": "بناء الانضباط والاحترام",
+  "wellbeing_social_2": "تطوير مهارات العمل الجماعي",
+  "wellbeing_social_3": "خلق صداقات دائمة",
+  "wellbeing_social_4": "تحسين مهارات التواصل",
+  "wellbeing_social_5": "تطوير مهارات القيادة",
+  "wellbeing_social_6": "الوعي والتقدير الثقافي",
+
+  "philosophy_quote": "الانضباط. النزاهة. التركيز.",
+  "philosophy_text": "هذه القيم الأساسية توجه كل جانب من جوانب تدريبنا. نحن نؤمن أن القوة الحقيقية تأتي من الداخل، ومهمتنا هي مساعدتك على اكتشاف إمكانياتك وبناء شخصية تتجاوز بكثير حصيرة التدريب.",
+
+  "testimonials_title": "ماذا يقول عملاؤنا",
+  "testimonials_subtitle": "قصص حقيقية من مجتمع تدريبنا",
+
+  "testimonial_1_text": "كانت تجربتي التي استمرت سبعة أشهر في Home Fitness فريدة حقًا. تدربت في المواي تاي وفنون القتال المختلفة، وطورت نفسي بشكل كبير من حيث القوة واللياقة والتركيز. المكان مريح ومحفز، وكل شيء منظم ويشجع على المثابرة.",
+  "testimonial_1_name": "راشد",
+  "testimonial_1_title": "مقيمة في دبي",
+
+  "testimonial_2_text": "أود أن أشكر المدرب سمير، الذي لم يخذلني أبدًا. دعمني، وعلمني الأساسيات، وساعدني في الاستعداد لأول بطولة لي. بفضله وبفضل عملي الجاد، دخلت البطولة وفزت بالمركز الثاني. كانت تجربة رائعة ومشجعة جدًا. Home Fitness ليس مجرد نادٍ؛ إنه بيئة محفزة. نظيف ومنظم، وكل شيء موجه لمساعدتك على التركيز والتطور. كان التدريب هناك مكثفًا ومتعددًا، وكان كل يوم يمثل تحديًا جديدًا. والأفضل من ذلك، أن المدرب لا يخذلك أبدًا. هو متفهم وصبور ويشجعك دائمًا على بذل قصارى جهدك.",
+  "testimonial_2_name": "عمر حسن",
+  "testimonial_2_title": "ضابط مدني",
+
+  "testimonial_3_text": "لقد أصبحت أحب التمارين أكثر، واكتسبت لياقة وثقة تفوق خيالي، كل ذلك بفضل الالتزام والشغف ومكان تدريبي في Home Fitness. حصلت على المركز الثاني، وكانت تجربة غيرت شخصيتي ونظرتي للحياة. تستمر الرحلة، الحلم لا يتوقف، وأصبح القتال جزءًا من كياني.",
+  "testimonial_3_name": "بريا شارما",
+  "testimonial_3_title": "مقيمة في أبوظبي",
+
+ "contact_title": "ابدأ اليوم",
+  "contact_subtitle": "اتصل بنا لبدء رحلتك في الفنون القتالية",
+  "contact_name_placeholder": "اسمك",
+  "contact_email_placeholder": "بريدك الإلكتروني",
+  "contact_phone_placeholder": "رقم هاتفك",
+  "contact_message_placeholder": "أخبرنا بأهدافك في اللياقة البدنية",
+  "contact_select_label": "اختر نوع الخدمة",
+  "contact_select_option_default": "اختر خيارًا",
+  "contact_select_option_home": "خدمة منزلية",
+  "contact_select_option_academy": "خدمة الأكاديمية",
+  "contact_button": "إرسال الرسالة",
+  "contact_success": "✅ تم إرسال الرسالة بنجاح!",
+  "contact_visit_title": "قم بزيارة مكتبنا الرئيسي",
+  "contact_visit_description": "نحن نقدم تدريبًا منزليًا في الفنون القتالية واللياقة البدنية في جميع أنحاء الإمارات. يقع مكتبنا الرئيسي في مركز مرحبا التجاري، رأس الخور الصناعية 2، دبي.",
+  "contact_address": "مركز مرحبا التجاري، رأس الخور الصناعية 2، دبي، الإمارات",
+  "contact_phone": "+971 50 123 4567",
+  "contact_email": "info@mmahomefitness.ae",
+
+  "contact_bubble_text": "اتصل بنا",
+
+  "footer_title": "أكاديمية MMA هوم فيتنس",
+  "footer_description": "نوفر تدريب الفنون القتالية واللياقة البدنية الاحترافية في منزلك عبر الإمارات.",
+  "footer_copyright": "© 2024 أكاديمية MMA هوم فيتنس. كل الحقوق محفوظة."
+}
