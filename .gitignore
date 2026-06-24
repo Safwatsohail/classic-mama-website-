@@ -1,0 +1,7 @@
+# Ignore large video files (too big for GitHub's 100MB limit)
+hero_video.mp4
+*.mp4
+*.mov
+
+# macOS
+.DS_Store
